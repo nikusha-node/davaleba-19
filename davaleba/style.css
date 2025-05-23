@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.header1{
+    width: 100%;
+    background-color: black;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1 h3{
+    color: rgb(133, 125, 125);
+}
+
+.header2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left:80px ;
+    padding-right:80px ;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.left h5{
+    border-bottom: 10px solid black;
+}
+.right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+input{
+    width: 101px;
+    height: 43px;
+    outline: 0;
+    border: 0;
+    padding-left:6px ;
+}
+
+.input1:hover{
+    border-bottom: 2px solid black;
+}
+.right{
+    color: black;
+    text-decoration-line: none;
+}
+.right:hover{
+    cursor: pointer;
+}
+.special{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    row-gap: 65px;
+    column-gap: 45px;
+}
+
+.card {
+    width: 380px;
+    height: 350px;
+}
+
+img {
+    width: 380px;
+    height: 300px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: rgb(26, 26, 26);
+    padding: 50px;
+    color: white;
+    width: 100%;
+    
+}
+.a{
+    color: white;
+    text-decoration-line:none ;
+    text-align: center;
+}
+.righta:hover{
+    cursor: pointer;
+}
+.footerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 150px;
+
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer2{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.email{
+    background-color:rgb(26, 26, 26);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.footer3{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+
+}
+button{
+    background-color: white;
+    color: rgb(26, 26, 26);
+    border: none;
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.svg {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-right: 45%;
+    color: rgb(212, 212, 212);
+}
+
+@media (max-width: 1695px) {
+    .grid {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (max-width: 1265px) {
+    .grid {
+        grid-template-columns: auto auto;
+    }
+}
